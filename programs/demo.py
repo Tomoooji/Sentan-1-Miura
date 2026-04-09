@@ -32,7 +32,7 @@ axis.set_ylim(0,360)
 
 # 式はグラフ中に描画するのでタイトルをシンプルに
 txt_t = 'Linear Regression'
-axis.set_title(txt_t)
+axis.set_title(txt_t,fontsize = 30)
 
 # 式をlatex形式にしてR^2値も追加
 formula_pos = [0.071,202]
