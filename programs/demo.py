@@ -18,7 +18,7 @@ fig, axis = plt.subplots()
 axis.scatter(x,y,alpha=0.7)#
 
 #axis.plot(x, model.predict(x),color = "black")
-axis.axline((0,model.intercept_),(1,model.coef_[0]),color = "red",
+axis.axline((0,model.intercept_),(1,model.coef_[0]),color = "darkred",
             linestyle = "--")# 散布図ではなく直線(破線)で表示
 ##sns.regplot(x=x,y=y)
 
@@ -32,11 +32,11 @@ axis.set_ylim(0,360)
 
 # 式はグラフ中に描画するのでタイトルをシンプルに
 txt_t = 'Linear Regression'
-axis.set_title(txt_t,fontsize = 30)
+axis.set_title(txt_t,fontsize = 20)
 
 # 式をlatex形式にしてR^2値も追加
-formula_pos = [0.071,202]
-txt_l = rf'$y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}  (R^2 = {model.score(x,y):.3f})$'
+formula_pos = [0.11,190]
+txt_l = rf'$y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}$'+"\n"+rf'$(R^2 = {model.score(x,y):.3f})$'
 axis.text(formula_pos[0],formula_pos[1],txt_l)
 
 
