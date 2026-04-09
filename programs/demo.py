@@ -18,4 +18,5 @@ plt.plot(x, model.predict(x), color='red') # 回帰直線を赤線で加える
 plt.xlabel('BMI'); plt.ylabel('Target') # x軸とy軸にラベルを加える
 txt = f'Linear Regression: y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}'
 plt.title(txt) # 表題として回帰直線の数式を加える
+#plt.grid()
 plt.show()
