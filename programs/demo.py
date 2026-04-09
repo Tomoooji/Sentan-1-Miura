@@ -18,13 +18,13 @@ fig, axis = plt.subplots()
 axis.scatter(x,y,alpha=0.7)#
 
 #axis.plot(x, model.predict(x),color = "black")
-axis.axline((0,model.intercept_),(1,model.coef_[0]),
-            color = "red",linestyle = "--")# 散布図ではなく直線(破線)で表示
+axis.axline((0,model.intercept_),(1,model.coef_[0]),color = "red",
+            linestyle = "--")# 散布図ではなく直線(破線)で表示
 ##sns.regplot(x=x,y=y)
 
 # 軸ラベル
-axis.set_xlabel("Target")
-axis.set_ylabel("BMI")
+axis.set_xlabel("Target",fontsize = 17)
+axis.set_ylabel("BMI",fontsize = 17)
 
 #(直線を描画すると描画範囲が変わったので手動で調整)
 axis.set_xlim(-0.11,0.21)
