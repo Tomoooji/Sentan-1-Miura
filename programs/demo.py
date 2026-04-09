@@ -8,7 +8,6 @@ y = load_diabetes().target
 model = LinearRegression() # 線形回帰を行う
 model.fit(x, y) # BMI値から糖尿病の進行を予測する
 
-formula_pos = [0.07,205]
 
 # plt.scatter(x, y) # ナイーブなプロットはあまり美しいとは言えない
 # plt.show()
@@ -21,16 +20,26 @@ txt = f'Linear Regression: y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}'
 plt.title(txt) # 表題として回帰直線の数式を加える
 plt.xlim(-0.2, 0.2)
 """
+formula_pos = [0.071,202]
+
 # figとaxis使う方で書いてみる
 fig, axis = plt.subplots()
+
 axis.scatter(x,y,alpha=0.7)
-axis.plot(x, model.predict(x),color = "black")
+#axis.plot(x, model.predict(x),color = "black")
+axis.axline((0,model.intercept_),(1,model.coef_[0]),color = "red",linestyle = "--")
+
 axis.set_xlabel("Target")
 axis.set_ylabel("BMI")
+
+axis.set_xlim(-0.11,0.21)
+axis.set_ylim(0,360)
+
 #txt = f'Linear Regression: y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}'
 txt_t = 'Linear Regression'
-txt_l = rf'$y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}  (R^2 = {model.score(x,y):.3f})$'
 axis.set_title(txt_t)
+
+txt_l = rf'$y = {model.coef_[0]:.1f} x + {model.intercept_:.1f}  (R^2 = {model.score(x,y):.3f})$'
 axis.text(formula_pos[0],formula_pos[1],txt_l)
 
 
