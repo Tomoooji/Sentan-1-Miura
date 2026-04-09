@@ -1,4 +1,5 @@
-from tensorflow.keras import Sequential from tensorflow.keras.layers import Dense
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense
 from tensorflow.keras.datasets.mnist import load_data
 # Cholet本の2章付属のコード
 (train_images, train_labels), (test_images, test_labels) = load_data()
