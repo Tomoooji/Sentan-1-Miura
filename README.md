@@ -11,8 +11,10 @@ Anacondaとvenvは併用できないぽいのでなーし！！
 
 データについて(from https://qiita.com/kotaroito/items/9e02e7378fc0053c01c0)
 
->
 > 糖尿病患者442名のデータが入っており、基礎項目（age, sex, body mass index, average blood pressure）と6つの血液検査項目を入力とし、1年後の進行状況を予測ターゲットにします。
 
-
 ![](assets/20260409_111951_image.png)
+
+
+
+![](assets/20260409_134954_demo2.png)
