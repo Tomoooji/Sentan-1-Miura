@@ -30,3 +30,15 @@ conda install -c conda-forge tensorflow
 ![](assets/20260409_111951_image.png)
 
 ![](assets/20260409_134954_demo2.png)
+## 内容関連-2日目
+
+
+```
+Epoch 1/3
+59/59 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.8292 - loss: 0.6771 
+Epoch 2/3
+59/59 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.9135 - loss: 0.3105 
+Epoch 3/3
+59/59 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.9323 - loss: 0.2442 
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - accuracy: 0.9406 - loss: 0.2155 
+```
