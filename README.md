@@ -20,7 +20,6 @@ conda list [パッケージ] // パッケージの情報取得(なかったらwa
 conda install -c conda-forge tensorflow
 ```
 
-
 ## 内容関連－1日目
 
 データについて(from https://qiita.com/kotaroito/items/9e02e7378fc0053c01c0)
@@ -30,8 +29,11 @@ conda install -c conda-forge tensorflow
 ![](assets/20260409_111951_image.png)
 
 ![](assets/20260409_134954_demo2.png)
-## 内容関連-2日目
 
+
+![](assets/20260415_080053_product2.png)
+
+## 内容関連-2日目
 
 ```
 Epoch 1/3
