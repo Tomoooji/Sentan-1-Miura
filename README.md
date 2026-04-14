@@ -1,3 +1,4 @@
+
 # Sentan-1-Miura
 
 先端生命科学実験の三浦先生回分のプログラムフォルダ
@@ -30,8 +31,7 @@ conda install -c conda-forge tensorflow
 
 ![](assets/20260409_134954_demo2.png)
 
-
-![](assets/20260415_080053_product2.png)
+![](assets/20260415_081929_product3.png)
 
 ## 内容関連-2日目
 
