@@ -109,7 +109,6 @@ Epoch 25/25
 ```
 
 ### Test-2
-
 ```
 Epoch 1/25
 59/59 ━━━━━━━━━━━━━━━━━━━━ 13s 173ms/step - accuracy: 0.7173 - loss: 0.9178
@@ -165,7 +164,6 @@ Epoch 25/25
 ```
 
 ### Test-3
-
 ```
 Epoch 1/25
 59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 132ms/step - accuracy: 0.7220 - loss: 0.9002
@@ -222,7 +220,111 @@ Epoch 25/25
 
 
 ### Test-4
-
+```
+Epoch 1/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 141ms/step - accuracy: 0.7364 - loss: 0.8566
+Epoch 2/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 8s 133ms/step - accuracy: 0.9426 - loss: 0.1864 
+Epoch 3/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 167ms/step - accuracy: 0.9654 - loss: 0.1158
+Epoch 4/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9731 - loss: 0.0883 
+Epoch 5/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 168ms/step - accuracy: 0.9788 - loss: 0.0715
+Epoch 6/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 163ms/step - accuracy: 0.9805 - loss: 0.0634
+Epoch 7/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 172ms/step - accuracy: 0.9830 - loss: 0.0558
+Epoch 8/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 171ms/step - accuracy: 0.9847 - loss: 0.0511
+Epoch 9/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 163ms/step - accuracy: 0.9856 - loss: 0.0457
+Epoch 10/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 162ms/step - accuracy: 0.9876 - loss: 0.0405
+Epoch 11/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 163ms/step - accuracy: 0.9877 - loss: 0.0404
+Epoch 12/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 183ms/step - accuracy: 0.9891 - loss: 0.0356
+Epoch 13/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 192ms/step - accuracy: 0.9899 - loss: 0.0328
+Epoch 14/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 181ms/step - accuracy: 0.9900 - loss: 0.0328
+Epoch 15/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 187ms/step - accuracy: 0.9912 - loss: 0.0296
+Epoch 16/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 155ms/step - accuracy: 0.9910 - loss: 0.0282 
+Epoch 17/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9920 - loss: 0.0261 
+Epoch 18/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9918 - loss: 0.0254 
+Epoch 19/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9923 - loss: 0.0247 
+Epoch 20/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9929 - loss: 0.0220 
+Epoch 21/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 150ms/step - accuracy: 0.9927 - loss: 0.0227 
+Epoch 22/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 150ms/step - accuracy: 0.9935 - loss: 0.0207 
+Epoch 23/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 168ms/step - accuracy: 0.9938 - loss: 0.0190
+Epoch 24/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 182ms/step - accuracy: 0.9941 - loss: 0.0186
+Epoch 25/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 169ms/step - accuracy: 0.9938 - loss: 0.0194
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - accuracy: 0.9928 - loss: 0.0234
 ```
 
+### Test-5
+```
+Epoch 1/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 142ms/step - accuracy: 0.7311 - loss: 0.8774
+Epoch 2/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 156ms/step - accuracy: 0.9403 - loss: 0.1967 
+Epoch 3/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 159ms/step - accuracy: 0.9613 - loss: 0.1271 
+Epoch 4/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 159ms/step - accuracy: 0.9706 - loss: 0.0955 
+Epoch 5/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9762 - loss: 0.0796 
+Epoch 6/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9793 - loss: 0.0689 
+Epoch 7/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 161ms/step - accuracy: 0.9821 - loss: 0.0589
+Epoch 8/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 174ms/step - accuracy: 0.9839 - loss: 0.0526
+Epoch 9/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 159ms/step - accuracy: 0.9847 - loss: 0.0494 
+Epoch 10/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 165ms/step - accuracy: 0.9857 - loss: 0.0457
+Epoch 11/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 165ms/step - accuracy: 0.9876 - loss: 0.0399
+Epoch 12/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 10s 175ms/step - accuracy: 0.9876 - loss: 0.0401
+Epoch 13/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 182ms/step - accuracy: 0.9894 - loss: 0.0341
+Epoch 14/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 11s 182ms/step - accuracy: 0.9897 - loss: 0.0333
+Epoch 15/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9904 - loss: 0.0309 
+Epoch 16/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9905 - loss: 0.0313 
+Epoch 17/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9913 - loss: 0.0278 
+Epoch 18/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 150ms/step - accuracy: 0.9908 - loss: 0.0276 
+Epoch 19/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 154ms/step - accuracy: 0.9915 - loss: 0.0262 
+Epoch 20/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9926 - loss: 0.0231 
+Epoch 21/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9921 - loss: 0.0233 
+Epoch 22/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 150ms/step - accuracy: 0.9930 - loss: 0.0219 
+Epoch 23/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 151ms/step - accuracy: 0.9931 - loss: 0.0220 
+Epoch 24/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 152ms/step - accuracy: 0.9931 - loss: 0.0201 
+Epoch 25/25
+59/59 ━━━━━━━━━━━━━━━━━━━━ 9s 150ms/step - accuracy: 0.9934 - loss: 0.0196 
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - accuracy: 0.9936 - loss: 0.0205    
 ```
