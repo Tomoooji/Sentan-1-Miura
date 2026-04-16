@@ -16,6 +16,7 @@ factor_name=[
     "Age","Sex","BMI","Blood Pressure","s1(tc)","s2(ldl)","s3(hdl)","s4(tch)","s5(ltg)","s6(glu)"
 ]
 
+
 # 説明変数の切り替え用
 factor_num = 10
 factor_id = 2
@@ -37,6 +38,7 @@ def main():
     models = [LinearRegression() for i in range(factor_num)] # 線形回帰モデル
     list(map(lambda mdl,x:mdl.fit(x,target),models,factors)) # 線形回帰
 
+
     # グラフ画面の作成
     fig, axis = plt.subplots(
         2,
@@ -46,7 +48,7 @@ def main():
     
     # グラフのタイトル(上の方が概念的にはきれいだが下の方が余白が良い感じなのでそっちを使う)   
     #fig.suptitle('Linear Regression Analysis',fontsize = 15)
-    axis[0].set_title('Linear Regression Analysis',fontsize = 15)
+    axis[0].set_title('Linear Regression Analysis of Diabetes dataset',fontsize = 15)
 
     # 説明変数を切り替えるボタン
     btn=wg.Button(axis[0],"")
@@ -74,8 +76,10 @@ def main():
     # ボタンが押された時にグラフ上の要素を更新できるようにしている
     while is_drawing:
         # 凡例に出す数式の更新
-        txtfunc=rf'$y = {models[factor_id].coef_[0]:.1f} x + {models[factor_id].intercept_:.1f}$'+"\n"+rf'$(R^2 = {models[factor_id].score(factors[factor_id],target):.3f})$'
-
+        txtfunc=rf'$y = {models[factor_id].coef_[0]:.1f} x + {models[factor_id].intercept_:.1f}$'+"\n"
+         # R^2と相関係数
+        +rf'$(R^2 = {models[factor_id].score(factors[factor_id],target):.3f}, r={np.corrcoef(factors[factor_id].ravel(),target)[0,1]:.3f})$'
+        
         # 散布図と回帰直線の更新
         scat.set_offsets(list(zip(factors[factor_id],target.reshape(-1,1))))
         line.set_xy1((0,models[factor_id].intercept_))
