@@ -48,10 +48,6 @@ axis.axline((0,model.intercept_),
             )# 散布図ではなく直線(破線)で表示
 ##sns.regplot(x=x,y=y)
 
-
-
-
-
-plt.legend(loc="upper left", borderaxespad=1)
+axis.legend(loc="upper left", borderaxespad=1)
 
 plt.show()
