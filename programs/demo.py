@@ -1,4 +1,5 @@
 ##import seaborn as sns
+import numpy as np
 from sklearn.datasets import load_diabetes # 使うライブラリをまとめて宣言しておく
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
@@ -47,7 +48,7 @@ def main():
     axis[0].spines[ "top" ].set_visible(False)
     
     #先に型枠だけ作っとく
-    scat = axis[0].scatter(0,0,alpha=0.5,edgecolors="White")
+    scat = axis[0].scatter([],[],alpha=0.5,edgecolors="White")
     line = axis[0].axline((0,0),(0,0),color = "darkred", linestyle = "--")
     #axis[0].legend(loc="upper left", borderaxespad=1)
     
@@ -55,7 +56,7 @@ def main():
     while is_drawing:
         txtfunc=rf'$y = {models[factor_id].coef_[0]:.1f} x + {models[factor_id].intercept_:.1f}$'+"\n"+rf'$(R^2 = {models[factor_id].score(factors[factor_id],target):.3f})$'
 
-        scat.set_offsets(factors[factor_id],target)
+        scat.set_offsets(list(zip(factors[factor_id],target.reshape(-1,1))))
         line.set_data((0,models[factor_id].intercept_), (1,models[factor_id].coef_[0]))
         line.set_label(txtfunc)
         axis[0].legend(loc="upper left", borderaxespad=1)
