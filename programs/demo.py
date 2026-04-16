@@ -13,7 +13,7 @@ import matplotlib.widgets as wg
 
 # 説明変数の名前たち
 factor_name=[
-    "Age","Sex","BMI","Blood Pressure","s1","s2","s3","s4","s5","s6"
+    "Age","Sex","BMI","Blood Pressure","s1(tc)","s2(ldl)","s3(hdl)","s4(tch)","s5(ltg)","s6(glu)"
 ]
 
 # 説明変数の切り替え用
@@ -87,6 +87,10 @@ def main():
         
         # ボタンの文字の更新
         btn.label.set_text(f"change factor: {factor_name[factor_id]} -> {factor_name[0 if factor_id ==9 else factor_id+1]}")
+        
+        # X軸ラベルの更新
+        axis[1].set_xlabel(f"Factor({factor_name[factor_id]})(scaled)",fontsize = 12)
+
         
         # 画面全体の再表示(1秒毎)
         plt.pause(1)
