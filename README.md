@@ -6,7 +6,8 @@
 ## 環境構築メモ
 
 python のバージョン: 3.10.9
-Anacondaとvenvは併用できないぽいのでなーし！！
+Anacondaとvenvは併用できないぽいのでなーし！！  
+Anacondaは2026年4月時点の最新、実行環境はvscode(Jupyter Notebookとかでもほぼ動くけどMatplotlibのボタンが面倒)  
 
 ```
 conda create -n tf_env python=3.10 // 仮想環境(tf_env)の作成
